@@ -1,0 +1,14 @@
+2023-12-25 23:32:04 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\engine.py", line 180, in _next_request
+    request = next(self.slot.start_requests)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\JS逆向\mySpider07\mySpider07\spiders\youdao.py", line 50, in start_requests
+    print(success)
+NameError: name 'success' is not defined
+2023-12-25 23:32:28 [scrapy.core.engine] ERROR: Error while obtaining start requests
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\engine.py", line 180, in _next_request
+    request = next(self.slot.start_requests)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\JS逆向\mySpider07\mySpider07\spiders\youdao.py", line 49, in start_requests
+    print(aaa)
+NameError: name 'aaa' is not defined

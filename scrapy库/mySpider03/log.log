@@ -1,0 +1,9 @@
+2023-10-07 20:11:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://www.163.com/> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spiders\__init__.py", line 73, in _parse
+    return self.parse(response, **kwargs)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider03\mySpider03\spiders\wangyi.py", line 12, in parse
+    print(response.request.meta['proxy'])
+KeyError: 'proxy'

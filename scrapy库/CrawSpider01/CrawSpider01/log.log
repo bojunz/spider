@@ -1,0 +1,150 @@
+2023-10-01 02:36:26 [scrapy.middleware] WARNING: Disabled CrawSpider01.pipelines.MooncakePipeline: ImagesPipeline requires installing Pillow 4.0.0 or later
+2023-10-01 02:36:41 [scrapy.middleware] WARNING: Disabled CrawSpider01.pipelines.MooncakePipeline: ImagesPipeline requires installing Pillow 4.0.0 or later
+2023-10-01 02:52:12 [scrapy.middleware] WARNING: Disabled CrawSpider01.pipelines.MooncakePipeline: ImagesPipeline requires installing Pillow 4.0.0 or later
+2023-10-01 03:00:41 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6403.jpg_wh300.jpg
+2023-10-01 03:00:43 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/2569.jpg_wh300.jpg
+2023-10-01 03:00:45 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3487.jpg_wh300.jpg
+2023-10-01 03:15:05 [scrapy.core.scraper] ERROR: Spider error processing <GET https://699pic.com/zhuanti/longniansongfujiehaoyuan.html> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\defer.py", line 277, in iter_errback
+    yield next(it)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\CrawSpider01\CrawSpider01\spiders\chinaz.py", line 26, in parse
+    item['name'] = name
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\item.py", line 85, in __setitem__
+    raise KeyError(f"{self.__class__.__name__} does not support field: {key}")
+KeyError: 'MooncakeItem does not support field: name'
+2023-10-01 03:15:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://699pic.com/zhuanti/longniansongfujiehaoyuan.html> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\defer.py", line 277, in iter_errback
+    yield next(it)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\CrawSpider01\CrawSpider01\spiders\chinaz.py", line 26, in parse
+    item['name'] = name
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\item.py", line 85, in __setitem__
+    raise KeyError(f"{self.__class__.__name__} does not support field: {key}")
+KeyError: 'MooncakeItem does not support field: name'
+2023-10-01 04:06:11 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6403.jpg_wh300.jpg
+2023-10-01 04:06:13 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/2569.jpg_wh300.jpg
+2023-10-01 04:06:15 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3487.jpg_wh300.jpg
+2023-10-01 04:06:17 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3485.jpg_wh300.jpg
+2023-10-01 04:06:19 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6494.jpg_wh300.jpg
+2023-10-01 04:06:21 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6588.jpg_wh300.jpg
+2023-10-01 04:06:23 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6636.jpg_wh300.jpg
+2023-10-01 04:06:25 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/7555.jpg_wh300.jpg
+2023-10-01 04:06:27 [CrawSpider01.pipelines] WARNING: https://static.699pic.com/images/blank.png
+2023-10-01 04:06:29 [CrawSpider01.pipelines] WARNING: https://static.699pic.com/images/blank.png
+2023-10-01 04:06:31 [CrawSpider01.pipelines] WARNING: https://static.699pic.com/images/blank.png
+2023-10-01 04:06:33 [CrawSpider01.pipelines] WARNING: https://static.699pic.com/images/blank.png
+2023-10-01 04:06:35 [CrawSpider01.pipelines] WARNING: https://static.699pic.com/images/blank.png
+2023-10-01 04:06:37 [CrawSpider01.pipelines] WARNING: https://static.699pic.com/images/blank.png
+2023-10-01 04:07:48 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6403.jpg_wh300.jpg
+2023-10-01 04:07:50 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/2569.jpg_wh300.jpg
+2023-10-01 04:07:52 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3487.jpg_wh300.jpg
+2023-10-01 04:07:54 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3485.jpg_wh300.jpg
+2023-10-01 04:07:56 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6494.jpg_wh300.jpg
+2023-10-01 04:08:29 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6403.jpg_wh300.jpg
+2023-10-01 04:08:31 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/2569.jpg_wh300.jpg
+2023-10-01 04:08:33 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3487.jpg_wh300.jpg
+2023-10-01 04:08:35 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3485.jpg_wh300.jpg
+2023-10-01 04:08:37 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6494.jpg_wh300.jpg
+2023-10-01 04:08:39 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6588.jpg_wh300.jpg
+2023-10-01 04:08:41 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6636.jpg_wh300.jpg
+2023-10-01 04:12:04 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6403.jpg_wh300.jpg
+2023-10-01 04:12:06 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/2569.jpg_wh300.jpg
+2023-10-01 04:12:08 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3487.jpg_wh300.jpg
+2023-10-01 04:12:10 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3485.jpg_wh300.jpg
+2023-10-01 04:12:12 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6494.jpg_wh300.jpg
+2023-10-01 04:12:14 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6588.jpg_wh300.jpg
+2023-10-01 04:12:16 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6636.jpg_wh300.jpg
+2023-10-01 13:35:03 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6403.jpg_wh300.jpg
+2023-10-01 13:35:05 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/2569.jpg_wh300.jpg
+2023-10-01 13:35:07 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3487.jpg_wh300.jpg
+2023-10-01 13:35:10 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3485.jpg_wh300.jpg
+2023-10-01 13:35:12 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6494.jpg_wh300.jpg
+2023-10-01 13:35:14 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6588.jpg_wh300.jpg
+2023-10-01 13:35:16 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6636.jpg_wh300.jpg
+2023-10-01 13:35:18 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/7555.jpg_wh300.jpg
+2023-10-01 13:35:20 [CrawSpider01.pipelines] WARNING: https://static.699pic.com/images/blank.png
+2023-10-01 13:49:20 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6403.jpg_wh300.jpg
+2023-10-01 13:49:22 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/2569.jpg_wh300.jpg
+2023-10-01 13:49:24 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3487.jpg_wh300.jpg
+2023-10-01 13:49:26 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3485.jpg_wh300.jpg
+2023-10-01 13:49:28 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6494.jpg_wh300.jpg
+2023-10-01 14:19:40 [twisted] CRITICAL: Unhandled error in Deferred:
+2023-10-01 14:19:40 [twisted] CRITICAL: 
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 1697, in _inlineCallbacks
+    result = context.run(gen.send, result)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\crawler.py", line 134, in crawl
+    self.engine = self._create_engine()
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\crawler.py", line 148, in _create_engine
+    return ExecutionEngine(self, lambda _: self.stop())
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\engine.py", line 99, in __init__
+    self.scraper = Scraper(crawler)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\scraper.py", line 109, in __init__
+    self.itemproc: ItemPipelineManager = itemproc_cls.from_crawler(crawler)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\middleware.py", line 67, in from_crawler
+    return cls.from_settings(crawler.settings, crawler)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\middleware.py", line 43, in from_settings
+    mwcls = load_object(clspath)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\misc.py", line 79, in load_object
+    mod = import_module(module)
+  File "C:\python\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 981, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'CrawSpider01.pipelines.images'; 'CrawSpider01.pipelines' is not a package
+2023-10-01 14:20:24 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6403.jpg_wh300.jpg
+2023-10-01 14:20:26 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/2569.jpg_wh300.jpg
+2023-10-01 14:20:28 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3487.jpg_wh300.jpg
+2023-10-01 14:20:30 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3485.jpg_wh300.jpg
+2023-10-01 15:28:51 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6403.jpg_wh300.jpg
+2023-10-01 15:28:53 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/2569.jpg_wh300.jpg
+2023-10-01 15:28:55 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3487.jpg_wh300.jpg
+2023-10-01 15:28:57 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/3485.jpg_wh300.jpg
+2023-10-01 15:28:59 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6494.jpg_wh300.jpg
+2023-10-01 15:29:01 [CrawSpider01.pipelines] WARNING: https://img95.699pic.com/photo/40251/6588.jpg_wh300.jpg

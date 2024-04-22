@@ -1,0 +1,90 @@
+2023-10-15 13:58:20 [scrapy.core.scraper] ERROR: Spider error processing <GET https://my.4399.com> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider04\mySpider04\spiders\game.py", line 20, in parse
+    print(re.findall('zbj1596357',response.text.S))
+AttributeError: 'str' object has no attribute 'S'
+2023-10-15 13:58:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://my.4399.com> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider04\mySpider04\spiders\game.py", line 20, in parse
+    print(re.findall('zbj1596357',response.text.re.S))
+AttributeError: 'str' object has no attribute 're'
+2023-10-15 13:59:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://my.4399.com> (referer: None)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider04\mySpider04\spiders\game.py", line 21, in parse
+    print(re.findall('zbj1596357',response.text.re.S))
+AttributeError: 'str' object has no attribute 're'
+2023-12-16 11:16:24 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 11:16:43 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 11:17:58 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 11:20:13 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 11:23:56 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 11:56:09 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 11:57:53 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 11:59:28 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 12:00:20 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 12:04:25 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 12:06:02 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 12:17:20 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 12:18:19 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 17:51:19 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 17:54:02 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 17:56:12 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 17:56:38 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 17:58:33 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-16 17:58:43 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-17 23:58:40 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-18 00:03:23 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-18 00:03:41 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+
+2023-12-18 00:04:12 [py.warnings] WARNING: C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py:305: RuntimeWarning: Could not load referrer policy 'origin-when-cross-origin, strict-origin-when-cross-origin'
+  warnings.warn(msg, RuntimeWarning)
+

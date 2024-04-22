@@ -1,0 +1,2576 @@
+2023-09-27 01:53:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=225&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\defer.py", line 277, in iter_errback
+    yield next(it)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 47, in parse_douban
+    callback=self.parse_detail,
+AttributeError: 'Douban2Spider' object has no attribute 'parse_detail'
+2023-09-27 01:53:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=25&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\defer.py", line 277, in iter_errback
+    yield next(it)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 47, in parse_douban
+    callback=self.parse_detail,
+AttributeError: 'Douban2Spider' object has no attribute 'parse_detail'
+2023-09-27 01:53:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=75&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\defer.py", line 277, in iter_errback
+    yield next(it)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 47, in parse_douban
+    callback=self.parse_detail,
+AttributeError: 'Douban2Spider' object has no attribute 'parse_detail'
+2023-09-27 01:53:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=200&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\defer.py", line 277, in iter_errback
+    yield next(it)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 47, in parse_douban
+    callback=self.parse_detail,
+AttributeError: 'Douban2Spider' object has no attribute 'parse_detail'
+2023-09-27 01:53:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=0&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\defer.py", line 277, in iter_errback
+    yield next(it)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 47, in parse_douban
+    callback=self.parse_detail,
+AttributeError: 'Douban2Spider' object has no attribute 'parse_detail'
+2023-09-27 01:53:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=175&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\defer.py", line 277, in iter_errback
+    yield next(it)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 47, in parse_douban
+    callback=self.parse_detail,
+AttributeError: 'Douban2Spider' object has no attribute 'parse_detail'
+2023-09-27 01:53:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=125&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\defer.py", line 277, in iter_errback
+    yield next(it)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 47, in parse_douban
+    callback=self.parse_detail,
+AttributeError: 'Douban2Spider' object has no attribute 'parse_detail'
+2023-09-27 01:53:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=150&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\defer.py", line 277, in iter_errback
+    yield next(it)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 47, in parse_douban
+    callback=self.parse_detail,
+AttributeError: 'Douban2Spider' object has no attribute 'parse_detail'
+2023-09-27 01:53:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=50&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\defer.py", line 277, in iter_errback
+    yield next(it)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 47, in parse_douban
+    callback=self.parse_detail,
+AttributeError: 'Douban2Spider' object has no attribute 'parse_detail'
+2023-09-27 01:53:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/top250?start=100&filter=> (referer: https://movie.douban.com/top250)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\defer.py", line 277, in iter_errback
+    yield next(it)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\utils\python.py", line 350, in __next__
+    return next(self.data)
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\offsite.py", line 28, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\referer.py", line 352, in <genexpr>
+    return (self._set_referer(r, response) for r in result or ())
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\urllength.py", line 27, in <genexpr>
+    return (r for r in result or () if self._filter(r, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\spidermiddlewares\depth.py", line 31, in <genexpr>
+    return (r for r in result or () if self._filter(r, response, spider))
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\scrapy\core\spidermw.py", line 106, in process_sync
+    for r in iterable:
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 47, in parse_douban
+    callback=self.parse_detail,
+AttributeError: 'Douban2Spider' object has no attribute 'parse_detail'
+2023-09-27 01:55:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1760622/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1295865/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:08 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/2213597/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/6874403/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1305690/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292233/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1304102/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:09 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1457217/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/2133323/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/25807345/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/26374197/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3552028/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1298624/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:10 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1293172/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/10463953/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1297518/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3011235/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1303037/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:11 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292849/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292224/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1652587/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292402/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1294408/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:12 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/26580232/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:13 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292337/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:13 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1297447/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:13 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/27010768/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:13 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/25814705/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:13 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291875/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1300992/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/21318488/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1293359/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/4202302/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:14 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291990/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292215/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1305164/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1297359/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/11026735/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291999/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/2149806/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:15 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1297630/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1294639/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1296339/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292370/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1418834/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1293350/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:16 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/26799731/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3395373/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/10777687/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292220/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1787291/> (referer: https://movie.douban.com/top250?start=100&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1900841/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:17 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3008247/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1485260/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291818/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1306029/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/21937445/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292000/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1301753/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1299131/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:18 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291571/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291843/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291828/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1418019/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1293839/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291548/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1461403/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:19 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291545/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:20 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1307315/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:20 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/27060077/> (referer: https://movie.douban.com/top250?start=50&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:20 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3072124/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:20 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/4268598/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:20 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/6307447/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/25986180/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/10437779/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1858711/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3287562/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/5989818/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:21 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1418200/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291579/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1294240/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/26628357/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/25814707/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1309055/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:22 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1395091/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:23 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/2353023/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:23 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1297052/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:23 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292274/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:23 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/10577869/> (referer: https://movie.douban.com/top250?start=125&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:23 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1849031/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292213/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/6786002/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/5912992/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291841/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1296141/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/2131459/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1307914/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:24 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/25662329/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3793023/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292001/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291549/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3011091/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292064/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1295124/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:25 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3541415/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292063/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1889243/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1295644/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291561/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292720/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:26 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292722/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291546/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292052/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1299398/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291572/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1296736/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:27 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291858/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/25958717/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1305487/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291583/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3742360/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1929463/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1293182/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:28 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/26387939/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1308807/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/30170448/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/2129039/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:29 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/21937452/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291552/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1295038/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1300267/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1851857/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292365/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3319755/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:30 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/26752088/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291560/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/25895901/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1295409/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291585/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291822/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:31 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/20495023/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1578507/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/25917973/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292208/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1297574/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:32 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1417598/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1907966/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1793929/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/26611804/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1302467/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/21360417/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1293181/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:33 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/26683290/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1295399/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/26325320/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/4917726/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291557/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1306861/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1828115/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:34 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/10533913/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1316510/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:35 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1306249/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1298070/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1865703/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292434/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/4920389/> (referer: https://movie.douban.com/top250?start=150&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1296996/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:36 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/6985810/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1300299/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292223/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292262/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1297192/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1302425/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1294371/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:37 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292679/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3442220/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1780330/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292656/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/5322596/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291832/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291544/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:38 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292343/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1293544/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/11525673/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/2334904/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/34874432/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1303021/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1438652/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:39 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291543/> (referer: https://movie.douban.com/top250?start=75&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1300117/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292287/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1959877/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1293318/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:40 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291992/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291879/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291844/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3592854/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1296909/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:41 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1303394/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1302827/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1309163/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3075287/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/4739952/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291870/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:42 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/25980443/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1308857/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1293908/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/5300054/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292401/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:43 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1310177/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/27059130/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/4848115/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1978709/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1867345/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1307811/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:44 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292329/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292328/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/2209573/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3011051/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/25773932/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1291578/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:45 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/6534248/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/27622447/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/24750126/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1307106/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292226/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:46 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/24733428/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1959195/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1293460/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/3792799/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1862151/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:47 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1307856/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/27119724/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1300374/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/10808442/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1304447/> (referer: https://movie.douban.com/top250?start=175&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1308767/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1293964/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/25864085/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:48 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1307394/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/2222996/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1419936/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/25724855/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/2051007/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1428175/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1304141/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:49 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/26430107/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1297880/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/26787574/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 01:55:50 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/25934014/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 02:24:00 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1292213/> (referer: https://movie.douban.com/top250?start=0&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 02:24:02 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1438652/> (referer: https://movie.douban.com/top250?start=200&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 02:24:05 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/21937452/> (referer: https://movie.douban.com/top250?start=25&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
+2023-09-27 02:24:05 [scrapy.core.scraper] ERROR: Spider error processing <GET https://movie.douban.com/subject/1304141/> (referer: https://movie.douban.com/top250?start=225&filter=)
+Traceback (most recent call last):
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\pythonProject1\venv\lib\site-packages\twisted\internet\defer.py", line 892, in _runCallbacks
+    current.result = callback(  # type: ignore[misc]
+  File "C:\Users\bzz00\PycharmProjects\pythonProject\spider\scrapy库\mySpider02\mySpider02\spiders\douban_new.py", line 64, in parse_detail
+    exit(-1)
+  File "C:\python\lib\_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: -1
